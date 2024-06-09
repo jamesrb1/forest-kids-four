@@ -1,6 +1,16 @@
 // app/layout.tsx
 import './globals.css'
-import Navbar from '../components/navbar'
+import React from "react";
+import {
+  Navbar, 
+  NavbarBrand, 
+  NavbarContent, 
+  NavbarItem, 
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem
+} from "@nextui-org/navbar";
+import Navbar2 from "../components/navbar2"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -11,7 +21,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="bg-white text-black">
-        <Navbar />
+        <Navbar2 />
         <main>{children}</main>
       </body>
     </html>
