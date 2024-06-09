@@ -5,13 +5,15 @@
 
 
 .hero {
-  background-image: url('https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Amazon_Rainforest.jpg'); /* Update this path */
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Aerial_view_of_the_Amazon_Rainforest.jpg/800px-Aerial_view_of_the_Amazon_Rainforest.jpg'); /* Update this path */
   background-size: cover;
   background-position: center;
-  height: 400px; /* Adjust as needed */
+  height: 500px; /* Adjust as needed */
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  text-align: center;
 }
 
 :root {
